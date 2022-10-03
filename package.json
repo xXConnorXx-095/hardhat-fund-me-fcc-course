@@ -13,6 +13,7 @@
     "@typechain/hardhat": "^6.1.2",
     "chai": "^4.2.0",
     "dotenv": "^16.0.2",
+    "ethereum-waffle": "^3.4.4",
     "ethers": "^5.7.1",
     "hardhat": "^2.11.2",
     "hardhat-deploy": "^0.11.15",
@@ -23,7 +24,6 @@
     "solidity-coverage": "^0.8.0",
     "typechain": "^8.1.0"
   },
-
   "scripts": {
     "test": "yarn hardhat test",
     "lint": "yarn hardhat solhint 'contracts/*.sol'",
